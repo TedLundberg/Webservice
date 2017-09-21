@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.sparkjava:spark-template-thymeleaf:2.5.5">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-template-thymeleaf/2.5.5/e052fc978d64cee5aa120a681e2cd9bbf127e95/spark-template-thymeleaf-2.5.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.sparkjava/spark-template-thymeleaf/2.5.5/1d91664574d95702d2483ca17e2e87cfc3f78cc9/spark-template-thymeleaf-2.5.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,50 @@
+Manifest-Version: 1.0
+Bundle-Description: Jetty module for Jetty :: Servlet Handling
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0, http://www
+ .eclipse.org/org/documents/epl-v10.php
+Bundle-SymbolicName: org.eclipse.jetty.servlet
+Implementation-Version: 9.4.4.v20170414
+Built-By: joakim
+Bnd-LastModified: 1492201804885
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-Copyright: Copyright (c) 2008-2017 Mort Bay Consulting Pty. Ltd
+ .
+Bundle-DocURL: http://www.eclipse.org/jetty
+Bundle-Vendor: Eclipse Jetty Project
+Import-Package: javax.servlet;version="[2.6.0,3.2)",javax.servlet.anno
+ tation;version="[2.6.0,3.2)",javax.servlet.descriptor;version="[2.6.0
+ ,3.2)",javax.servlet.http;version="[2.6.0,3.2)",org.eclipse.jetty.htt
+ p;version="[9.4.4,9.4.5)",org.eclipse.jetty.http.pathmap;version="[9.
+ 4.4,9.4.5)",org.eclipse.jetty.io;version="[9.4.4,9.4.5)",org.eclipse.
+ jetty.jmx;version="[9.4.4,9.4.5)";resolution:=optional,org.eclipse.je
+ tty.security;version="[9.4.4,9.4.5)",org.eclipse.jetty.server;version
+ ="[9.4.4,9.4.5)",org.eclipse.jetty.server.handler;version="[9.4.4,9.4
+ .5)",org.eclipse.jetty.server.handler.gzip;version="[9.4.4,9.4.5)",or
+ g.eclipse.jetty.server.session;version="[9.4.4,9.4.5)",org.eclipse.je
+ tty.servlet;version="[9.4.4,9.4.5)",org.eclipse.jetty.util;version="[
+ 9.4.4,9.4.5)";resolution:=optional,org.eclipse.jetty.util.annotation;
+ version="[9.4.4,9.4.5)";resolution:=optional,org.eclipse.jetty.util.c
+ omponent;version="[9.4.4,9.4.5)";resolution:=optional,org.eclipse.jet
+ ty.util.log;version="[9.4.4,9.4.5)";resolution:=optional,org.eclipse.
+ jetty.util.resource;version="[9.4.4,9.4.5)";resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+url: http://www.eclipse.org/jetty
+Tool: Bnd-3.0.0.201509101326
+Implementation-Vendor: Eclipse.org - Jetty
+Originally-Created-By: Apache Maven Bundle Plugin
+Export-Package: org.eclipse.jetty.servlet;version="9.4.4";uses:="javax
+ .servlet,javax.servlet.descriptor,javax.servlet.http,org.eclipse.jett
+ y.http.pathmap,org.eclipse.jetty.security,org.eclipse.jetty.server,or
+ g.eclipse.jetty.server.handler,org.eclipse.jetty.server.handler.gzip,
+ org.eclipse.jetty.server.session,org.eclipse.jetty.util,org.eclipse.j
+ etty.util.annotation,org.eclipse.jetty.util.component,org.eclipse.jet
+ ty.util.resource",org.eclipse.jetty.servlet.jmx;version="9.4.4";uses:
+ ="org.eclipse.jetty.jmx",org.eclipse.jetty.servlet.listener;version="
+ 9.4.4";uses:="javax.servlet"
+Bundle-Name: Jetty :: Servlet Handling
+Bundle-Version: 9.4.4.v20170414
+Bundle-Classpath: .
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_111
+

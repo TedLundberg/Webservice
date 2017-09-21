@@ -1,0 +1,41 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.attoparser
+Archiver-Version: Plexus Archiver
+Built-By: releases
+Bnd-LastModified: 1474929835810
+Specification-Title: attoparser
+Implementation-Vendor-Id: org.attoparser
+Bundle-DocURL: http://www.attoparser.org
+Export-Package: org.attoparser;uses:="org.attoparser.config,org.attopa
+ rser.select";version="2.0.1.RELEASE",org.attoparser.config;version="2
+ .0.1.RELEASE",org.attoparser.discard;uses:="org.attoparser";version="
+ 2.0.1.RELEASE",org.attoparser.dom;uses:="org.attoparser,org.attoparse
+ r.config";version="2.0.1.RELEASE",org.attoparser.duplicate;uses:="org
+ .attoparser,org.attoparser.config,org.attoparser.select";version="2.0
+ .1.RELEASE",org.attoparser.minimize;uses:="org.attoparser,org.attopar
+ ser.config";version="2.0.1.RELEASE",org.attoparser.output;uses:="org.
+ attoparser";version="2.0.1.RELEASE",org.attoparser.prettyhtml;uses:="
+ org.attoparser";version="2.0.1.RELEASE",org.attoparser.select;uses:="
+ org.attoparser,org.attoparser.config";version="2.0.1.RELEASE",org.att
+ oparser.simple;uses:="org.attoparser,org.attoparser.config";version="
+ 2.0.1.RELEASE",org.attoparser.trace;uses:="org.attoparser";version="2
+ .0.1.RELEASE",org.attoparser.util;version="2.0.1.RELEASE",org.attopar
+ ser.dom.impl;version="2.0.1.RELEASE"
+Bundle-Name: attoparser
+Implementation-Title: attoparser
+Bundle-Description: Powerful, fast and easy to use HTML and XML parser
+  for Java
+Implementation-Version: 2.0.1.RELEASE
+Specification-Vendor: The ATTOPARSER team
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The ATTOPARSER team
+Tool: Bnd-2.1.0.20130426-122213
+Implementation-Vendor: The ATTOPARSER team
+Bundle-Version: 2.0.1.RELEASE
+X-Compile-Target-JDK: 1.5
+X-Compile-Source-JDK: 1.5
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_60
+Specification-Version: 2.0.1.RELEASE
+

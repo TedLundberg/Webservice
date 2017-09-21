@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: thymeleaf
+Implementation-Version: 3.0.2.RELEASE
+Archiver-Version: Plexus Archiver
+Built-By: releases
+Specification-Vendor: The THYMELEAF team
+Specification-Title: thymeleaf
+Implementation-Vendor-Id: org.thymeleaf
+Implementation-Vendor: The THYMELEAF team
+X-Compile-Target-JDK: 1.6
+X-Compile-Source-JDK: 1.6
+Created-By: Apache Maven 3.3.9
+Build-Jdk: 1.8.0_102
+Specification-Version: 3.0.2.RELEASE
+

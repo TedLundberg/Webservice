@@ -1,0 +1,33 @@
+Manifest-Version: 1.0
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.unbescape
+Archiver-Version: Plexus Archiver
+Built-By: releases
+Bnd-LastModified: 1475014184447
+Specification-Title: unbescape
+Implementation-Vendor-Id: org.unbescape
+Bundle-DocURL: http://www.unbescape.org
+Export-Package: org.unbescape.properties;version="1.1.4.RELEASE",org.u
+ nbescape.java;version="1.1.4.RELEASE",org.unbescape.json;version="1.1
+ .4.RELEASE",org.unbescape.xml;version="1.1.4.RELEASE",org.unbescape.c
+ sv;version="1.1.4.RELEASE",org.unbescape.html;version="1.1.4.RELEASE"
+ ,org.unbescape.uri;version="1.1.4.RELEASE",org.unbescape.css;version=
+ "1.1.4.RELEASE",org.unbescape.javascript;version="1.1.4.RELEASE"
+Bundle-Name: unbescape
+Implementation-Title: unbescape
+Bundle-Description: Advanced yet easy-to-use escape/unescape library f
+ or Java
+Implementation-Version: 1.1.4.RELEASE
+Specification-Vendor: The UNBESCAPE team
+Bundle-ManifestVersion: 2
+Bundle-Vendor: The UNBESCAPE team
+Tool: Bnd-2.1.0.20130426-122213
+Implementation-Vendor: The UNBESCAPE team
+Bundle-Version: 1.1.4.RELEASE
+X-Compile-Target-JDK: 1.5
+X-Compile-Source-JDK: 1.5
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_60
+Specification-Version: 1.1.4.RELEASE
+Implementation-URL: http://www.unbescape.org
+
