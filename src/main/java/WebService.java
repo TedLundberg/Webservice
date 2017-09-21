@@ -29,9 +29,10 @@ public class WebService {
         //Change server port number
         int portNumber = 3373;
         port(portNumber);
+        /*
         //Set maximum allowed threads
         int maxThreads = 1;
-        threadPool(maxThreads);
+        threadPool(maxThreads);*/
 
         TemperatureSensorRepository temperatureSensorRepository = new TemperatureSensorRepository();
         Authenticate authenticate = new Authenticate();

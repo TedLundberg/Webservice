@@ -9,12 +9,18 @@ $(document).ready(function(){
             var chartData = [];
             var chartTimes = [];
 
+            //Vill ta fram tiden for det sista datat som lagts in i databasen. Sugig kod. Förmodligen för krånglig!
+            var parsedData = JSON.parse(data);
+            var tmpLastVal = parsedData[0];
+            var tmpDate = new Date(tmpLastVal.timestamp);
+            var lastUpdate = tmpDate.getHours() + ":" + tmpDate.getMinutes();
+
             $.each(JSON.parse(data), function(i, val){
                 chartData.push(val.value);
 
                 var d = new Date(val.timestamp)
 
-                chartTimes.push(d);
+                chartTimes.push(d.getHours());// + ":" + d.getMinutes());
             });
 
             var options = {
@@ -37,16 +43,19 @@ $(document).ready(function(){
             ];
 
             var data = {
-              labels: chartTimes,
+              labels: chartTimes.reverse(),
               series: [
                 {
-                    data: chartData
+                    data: chartData.reverse()
                 }
               ]
             };
 
+            //Update chart
             Chartist.Line('#chartHours', data, options, responsiveOptions);
-
+            //Update "last selected" text
+            var myDiv = document.getElementById("indoorTempLastUpdateText");
+            myDiv.innerHTML = "Senast uppdaterad " + lastUpdate;
 /*
             var ctx = document.getElementById("myChart");
             var myChart = new Chart(ctx, {
